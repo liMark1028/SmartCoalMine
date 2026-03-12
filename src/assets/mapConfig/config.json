@@ -1,0 +1,112 @@
+﻿{
+  "map3d": {
+    "scene": {
+      "scene3DOnly": false,
+      "shadows": false,
+      "removeDblClick": true,
+      "sceneMode": 3,
+      "showSun": true,
+      "showMoon": true,
+      "showSkyBox": true,
+      "showSkyAtmosphere": true,
+      "fog": true,
+      "fxaa": true,
+      "requestRenderMode": true,
+      "globe": {
+        "depthTestAgainstTerrain": false,
+        "baseColor": "#546a53",
+        "showGroundAtmosphere": true,
+        "enableLighting": false
+      },
+      "cameraController": {
+        "zoomFactor": 3.0,
+        "minimumZoomDistance": 1,
+        "maximumZoomDistance": 50000000,
+        "enableRotate": true,
+        "enableTranslate": true,
+        "enableTilt": true,
+        "enableZoom": true,
+        "enableCollisionDetection": false,
+        "minimumCollisionTerrainHeight": 15000
+      }
+    },
+    "control": {
+      "locationBar": {
+        "fps": true,
+        "crs": "CGCS2000_GK_Zone_3",
+        "crsDecimal": 0,
+        "template": "<div>经度:{lng}</div> <div>纬度:{lat}</div> <div class='hide1000'>横{crsx}  纵{crsy}</div> <div>海拔：{alt}米</div> <div class='hide700'>层级：{level}</div><div>方向：{heading}°</div> <div>俯仰角：{pitch}°</div><div class='hide700'>视高：{cameraHeight}米</div><div class='hide700'>每秒帧率：{fps}</div><div class='hide700'>延迟：{ms}毫秒</div>"
+      }
+    },
+    "templateValues": {
+      "dataServer": "//data.mars3d.cn",
+      "gltfServerUrl": "//data.mars3d.cn/gltf"
+    },
+    "terrain": {
+      "url": "http://192.168.0.70/xtdgis/dem/shanxi/sxzls_dx",
+      "requestVertexNormals": true,
+      "requestWaterMask": true,
+      "show": true
+    },
+    "basemaps": [
+      {
+        "name": "sxjcqc_yx",
+        "type": "wmts",
+        "url": "http://192.168.0.70:8080/geowebcache/service/wmts",
+        "layer": "sxjcqc_yx",
+        "format": "image/png",
+        "tileMatrixSetID": "EPSG:4326_sxjcqc_yx",
+        "tileMatrixLabels": [
+          "EPSG:4326_sxjcqc_yx:1",
+          "EPSG:4326_sxjcqc_yx:2",
+          "EPSG:4326_sxjcqc_yx:3",
+          "EPSG:4326_sxjcqc_yx:4",
+          "EPSG:4326_sxjcqc_yx:5",
+          "EPSG:4326_sxjcqc_yx:6",
+          "EPSG:4326_sxjcqc_yx:7",
+          "EPSG:4326_sxjcqc_yx:8",
+          "EPSG:4326_sxjcqc_yx:9",
+          "EPSG:4326_sxjcqc_yx:10",
+          "EPSG:4326_sxjcqc_yx:11",
+          "EPSG:4326_sxjcqc_yx:12",
+          "EPSG:4326_sxjcqc_yx:13",
+          "EPSG:4326_sxjcqc_yx:14",
+          "EPSG:4326_sxjcqc_yx:15",
+          "EPSG:4326_sxjcqc_yx:16",
+          "EPSG:4326_sxjcqc_yx:17"
+        ],
+        "crs": "EPSG:4326",
+        "show": true
+      }
+    ],
+    "layers": [
+      {
+        "name": "倾斜模型",
+        "type": "group",
+        "id": "mk-qx",
+        "show": true,
+        "center": {
+          "lat": 35.606952,
+          "lng": 112.269037,
+          "alt": 885.1,
+          "heading": 11.7,
+          "pitch": -22
+        },
+        "flyTo": true,
+        "flyToOptions": {
+          "duration": 0
+        },
+        "layers": [
+          {
+            "type": "tileset",
+            "url": "http://192.168.0.70/xtdgis/3dtiles/shanxi/sxzls_qx/01/tileset.json"
+          },
+          {
+            "type": "tileset",
+            "url": "http://192.168.0.70/xtdgis/3dtiles/shanxi/sxzls_qx/02/tileset.json"
+          }
+        ]
+      }
+    ]
+  }
+}

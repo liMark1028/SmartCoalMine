@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "PUHUITI55";
+    src: url("@/assets/font/ALIBABA_PUHUITI_2.0_55_REGULAR_55_REGULAR.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PUHUITI65";
+    src: url("@/assets/font/ALIBABA_PUHUITI_2.0_65_MEDIUM_65_MEDIUM.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "digital7";
+    src: url("@/assets/font/digital-7-4.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "YouSheBiaoTiHei";
+    src: url("@/assets/font/youshebaitihei.ttf");
+    font-weight: normal;
+    font-style: normal;
+}

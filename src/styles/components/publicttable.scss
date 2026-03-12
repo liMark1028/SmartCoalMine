@@ -1,0 +1,26 @@
+:deep(.el-table) {
+  background-color: transparent;
+  height: 100%;
+  color: #fff;
+  tr {
+    background-color: transparent;
+    background: url('@/assets/image/humanAndVehicle/mancar/list.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  th {
+    background-color: transparent;
+    color: #fff;
+  }
+  .el-table__body {
+    -webkit-border-vertical-spacing: 2px;
+  }
+}
+// 表格样式调整
+.el-table {
+    --el-table-border-color: none;
+    --el-table-border: none;
+  
+    :deep(.el-table__inner-wrapper::before) {
+      display: none;
+    }
+  }

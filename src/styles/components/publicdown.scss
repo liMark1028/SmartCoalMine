@@ -1,0 +1,31 @@
+// 下拉背景
+.el-popper.is-light.custom-select-dropdown {
+    background: #0b2d52;
+    background-size: 100% 100%;
+    border: none;
+  }
+  
+  .custom-select-dropdown {
+    .el-select-dropdown__item:hover {
+      background: rgba(0, 136, 255, 0.1);
+      color: #fff;
+    }
+    .el-select-dropdown__item.selected {
+      background: rgba(0, 136, 255, 0.1) ;
+      color: #fff ;
+    }
+    .el-select-dropdown__item.is-active {
+      color: #fff;
+    }
+    .el-select-dropdown__item.is-hovering{
+      background: rgba(0, 136, 255, 0.1) ;
+      color: #fff;
+    }
+    .el-select-dropdown__item.is-selected{
+      background: rgba(0, 136, 255, 0.1) ;
+      color: #fff;
+    }
+    .el-popper__arrow::before{
+      background: rgba(0,136,255,.1) !important;
+    }
+  }

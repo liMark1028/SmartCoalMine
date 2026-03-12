@@ -1,0 +1,29 @@
+
+@use 'element/element.scss';
+// 引入布局样式
+@use 'layout/index.scss';
+// 引入字体样式
+@use 'font.css';
+// 引入全局变量
+@forward './variables.scss';
+// 智能设备
+@forward './smartDevices.scss';
+// 数据管理
+@forward './components//datamanage.scss';
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+li {
+  list-style: none;
+}

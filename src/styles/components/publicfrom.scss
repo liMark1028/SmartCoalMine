@@ -1,0 +1,80 @@
+:deep(.formDialog) {
+    background: rgba(12, 51, 88, 0.8);
+    .el-dialog__title {
+      color: #fff;
+    }
+    .search_input {
+      // 输入框外部容器样式
+      width: 244px;
+      // height: 27px;
+      line-height: 25px;
+      background: url('@/assets/image/humanAndVehicle/mancar/input.png') no-repeat;
+      background-size: 100% 100%;
+
+      // 修改Element Plus输入框默认样式
+      .el-input-group__wrapper {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+      }
+
+      .el-input__wrapper {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+      }
+
+      .el-input__inner {
+        color: #fff; // 文字颜色
+        background: transparent;
+        border: none;
+      }
+      .el-select__wrapper {
+        height: 100%;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+      }
+      .el-select__placeholder.is-transparent {
+        color: #a8abb2 !important; // 文字颜色
+      }
+      .el-select__placeholder {
+        color: #ffffff;
+      }
+      
+    }
+    // 文本框
+    .search_textarea{
+      width: 244px;
+      background: url('@/assets/image/humanAndVehicle/mancar/input.png') no-repeat;
+      background-size: 100% 100%;
+      .el-textarea__inner{
+        color: #fff; // 文字颜色
+        background: transparent;
+        border: none;
+        box-shadow: none;
+      }
+    }
+    .el-form-item__label {
+      color: #fff;
+    }
+    .dialog-footer {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .mksure {
+      width: 96px;
+      height: 41px;
+      background: url('@/assets/image/datamanage/qd.png') no-repeat;
+      background-size: 100% 100%;
+      text-align: center;
+      line-height: 41px;
+      margin: 0 10px 0 0;
+      cursor: pointer;
+      color: #fff;
+      &:hover {
+        background: url('@/assets/image/datamanage/qd_s.png') no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }

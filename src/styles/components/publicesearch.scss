@@ -1,0 +1,71 @@
+.search_input_container {
+    // 输入框外部容器样式
+    width: 200px;
+    height: 27px;
+    line-height: 25px;
+    background-image: url('@/assets/image/humanAndVehicle/mancar/input.png');
+    background-size: 100% 100%;
+
+    // 修改Element Plus输入框默认样式
+    :deep(.el-input-group__wrapper) {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    :deep(.el-input__wrapper) {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    :deep(.el-input__inner) {
+        color: #fff; // 文字颜色
+        background: transparent;
+        border: none;
+    }
+}
+
+:deep(.search_input) {
+    // 输入框外部容器样式
+    width: 160px;
+    height: 27px;
+    line-height: 25px;
+    background-image: url('@/assets/image/humanAndVehicle/mancar/input.png');
+    background-size: 100% 100%;
+
+    // 修改Element Plus输入框默认样式
+    .el-input-group__wrapper {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    .el-input__wrapper {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    .el-input__inner {
+        color: #fff; // 文字颜色
+        background: transparent;
+        border: none;
+    }
+
+    .el-select__wrapper {
+        height: 100%;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    .el-select__placeholder.is-transparent {
+        color: #a8abb2 !important; // 文字颜色
+    }
+
+    .el-select__placeholder {
+        color: #ffffff;
+    }
+    
+}

@@ -1,0 +1,65 @@
+// 用来设置全局通用变量
+$mk-text-font-size: 14px;
+$mk-title-font-size: 20px;
+$mk-font-color: #fff;
+$mk-font: '微软雅黑';
+$mk-header-bg: url('@/assets/image/header/header_title.png');
+// 全局背景
+$mk-glabal-bg: url('@/assets/image/global/bg_glb.png');
+// 标题
+$mk-glabal-title: url('@/assets/image/global/title_glb.png');
+// 全局蒙版
+$mk-glabal-menban: url('@/assets/image/menban/upanddown.png');
+$mk-glabal-menban-zhts: url('@/assets/image/menban/zonghetaishi.png');
+$mk-glabal-menban-spjk: url('@/assets/image/menban/spjk.png');
+$mk-glabal-menban-rcdwe: url('@/assets/image/menban/renchedingwei.png');
+$mk-glabal-menban-znsb: url('@/assets/image/menban/znsb.png');
+$mk-glabal-menban-scjd: url('@/assets/image/menban/shengchanjindu.png');
+$mk-glabal-menban-yjjy: url('@/assets/image/menban/yjjy.png');
+// 全局子菜单背景
+$mk-glabal-titleBottonBg: url('@/assets/image/global/item_glb.png');
+$mk-glabal-itemactive: url('@/assets/image/global/itemactive_glb.png');
+// 头部样式
+// 右侧
+$mk-allSelect-bg: url('@/assets/image/header/all_select.png');
+$mk-allSearch-bg: url('@/assets/image/header/all_search.png');
+
+
+//告警
+$tk-contnetbox-width: 481px;
+$tk-contnetbox-height: 316px;
+// 告警头部
+$tk-contnet-bt-widht:481px;
+$tk-contnet-bt-height:29px;
+$tk-contnet-bt: url('@/assets/image/global/alarm/content_bt.png');
+// 告警背景
+$tk-contnet-bg-height:288px;
+$tk-contnet-bg: url('@/assets/image/global/alarm/content_bj.png');
+// 告警详情
+$tk-contnetbox-xq-width: 500px;
+$tk-contnetbox-xq-height: 335px;
+// 告警详情-头部
+$tk-contnetbox-xq-bt-height: 39px;
+
+$tk-contnetbox-xq-text-height: 278px;
+
+// 图层
+$tk-contnettcbox-width:292px;
+$tk-contnettcbox-height: 657px;
+// 图层-头部
+$tk-contnettcbox-tc-height: 29px;
+$tk-contnettcbox-tc-text-height: 620px;
+
+// 视角
+$tk-contnetsjbox-width:292px;
+$tk-contnetsjbox-height: 307px;
+//  视角-头部
+$tk-contnettcbox-sj-height: 29px;
+$tk-contnettcbox-sj-text-height: 275px;
+// 周边
+$tk-contnetzbbox-width:292px;
+$tk-contnetzbbox-height: 221px;
+//  周边-头部
+$tk-contnetzbbox-zb-height: 29px;
+$tk-contnetzbbox-zb-text-height: 190px;
+
